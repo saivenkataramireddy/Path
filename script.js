@@ -9,7 +9,7 @@ let path = [];
 let pos = { x: canvas.width / 2, y: canvas.height / 2 };
 let velocity = { x: 0, y: 0 };
 
-const sensitivity = 0.6;
+const sensitivity = 10;
 const returnThreshold = 10; // px
 
 // ===== PERMISSION (iOS REQUIRED) =====
@@ -102,3 +102,4 @@ function drawArrow(x, y) {
     ctx.arc(x, y, 6, 0, Math.PI * 2);
     ctx.fill();
 }
+
